@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardBooking"
+    android:layout_margin="20dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor name :"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor name"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textDname"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital name"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital name"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textHname5"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textDdate"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textTime"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textDisease"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textAmount"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/main"
+            android:text="Cancel"
+            android:textColor="@color/white" />
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

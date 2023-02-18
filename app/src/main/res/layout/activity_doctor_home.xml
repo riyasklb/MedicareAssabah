@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/precaution"
+    tools:context=".DoctorHome">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2"
+                android:layout_marginTop="30dp"
+                tools:ignore="MissingConstraints">
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bookings"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/bgs">
+
+                        <TextView
+                            android:id="@+id/tvConsult"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:text="View Bookings"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imgConsult"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_below="@id/tvConsult"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/booking" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bgs"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    android:id="@+id/chat"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Chat with patient"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="32dp"
+                            android:background="@drawable/dchat" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="1"
+                android:layout_marginTop="10dp"
+                tools:ignore="MissingConstraints">
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vprofile"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/bgs">
+
+                        <TextView
+                            android:id="@+id/tvProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Profile"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imgprofile"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_below="@id/tvProfile"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/dprofile" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:background="@color/white"
+    tools:context=".PatientRegistration">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Sign UP"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="33dp"
+        android:id="@+id/l"
+        android:layout_marginEnd="33dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etPusername"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter username"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+
+        <EditText
+            android:id="@+id/etPmail"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+
+        <EditText
+            android:id="@+id/etPpassword"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_lock_24"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+
+        <EditText
+            android:id="@+id/etPphone"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroke"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="10dp"
+            android:hint="Phone No"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+
+        <EditText
+            android:id="@+id/etdisease"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_pan_tool_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter your disease"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+
+
+        <EditText
+            android:id="@+id/etPage"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_age_24"
+            android:drawablePadding="10dp"
+            android:hint="Age"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_add_location_24"
+            android:drawablePadding="10dp"
+            android:hint="Location"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+        <RadioGroup
+            android:id="@+id/radioPgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="@color/blacktransparent2"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Male"
+                android:textColor="@color/blacktransparent2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="@color/blacktransparent2"
+                android:textColorHint="@color/blacktransparent2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:textColor="@color/blacktransparent2"
+                android:textColorHint="@color/blacktransparent2" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etblood"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_baseline_opacity_24"
+            android:drawablePadding="10dp"
+            android:hint="Blood group"
+            android:padding="10dp"
+            android:textColor="@color/blacktransparent2"
+            android:textColorHint="@color/blacktransparent2" />
+
+
+        <Button
+            android:id="@+id/btnPregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:background="@color/main"
+            android:text="Register"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/ggg"
+        android:layout_width="150dp"
+       android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/gii"
+        android:layout_below="@+id/l"
+        android:layout_height="150dp" />
+</RelativeLayout>

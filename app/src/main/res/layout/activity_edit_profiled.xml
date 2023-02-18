@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent3"
+    tools:context=".EditProfiledActivity">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:background="@drawable/profile3"
+
+          android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="75dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="75dp"
+            android:background="@drawable/ic_baseline_face_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text=" PROFILE"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"/>
+      </LinearLayout>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="User Name"
+          android:textColor="@color/colorPurple"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+
+
+      <EditText
+          android:id="@+id/usr"
+          android:layout_width="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack"
+          android:layout_height="40dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Mail Id"
+          android:textColor="@color/colorPurple"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+
+
+      <EditText
+          android:id="@+id/mails"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="20dp"
+          android:background="@drawable/profile"
+          android:paddingHorizontal="10dp"
+          android:textColor="@color/colorBlack" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Phone No"
+          android:textColor="@color/colorPurple"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+      <EditText
+          android:id="@+id/phones"
+          android:layout_width="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:background="@drawable/profile"
+          android:paddingHorizontal="10dp"
+          android:textColor="@color/colorBlack"
+          android:layout_marginTop="10dp"
+          android:layout_height="40dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Department"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/departs"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Gender"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/genders"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Qualification"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/quali"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Experience"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/expe"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Hospital"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/hospital"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Working Time"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/workingTime1"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Available Days"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/availableDays1"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:paddingHorizontal="10dp"
+          android:background="@drawable/profile"
+          android:textColor="@color/colorBlack" />
+      <Button
+          android:id="@+id/doc"
+          android:layout_width="186dp"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="25dp"
+          android:text="Upload Documents"
+          android:layout_marginTop="15dp"
+          android:textColor="@color/bluee"
+          />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+        >
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/profile2"
+            android:text="Update"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile2"
+            android:text="Delete"
+            android:textColor="@color/white"
+            />
+      </LinearLayout>
+
+    </LinearLayout>
+
+
+  </ScrollView>
+
+
+
+</RelativeLayout>

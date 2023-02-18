@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent3"
+    tools:context=".EditProfileActivity">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/profile3"
+        android:orientation="horizontal">
+
+      <ImageView
+          android:layout_marginTop="10dp"
+          android:layout_width="75dp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_height="75dp"
+          android:background="@drawable/ic_baseline_face_24"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/white"
+          android:textSize="28sp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:text="USER PROFILE"
+          android:layout_centerHorizontal="true"
+          android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="User Name"
+        android:textColor="@color/colorPurple"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/username3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/profile"
+        android:textColor="@color/colorBlack"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Mail Id"
+        android:textColor="@color/colorPurple"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/mail3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/profile"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Phone No"
+        android:textColor="@color/colorPurple"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/phone3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/profile"
+        android:paddingHorizontal="10dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Disease"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/disease3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/profile"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Age"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/age4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/profile"
+        android:textColor="@color/colorBlack" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Gender"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/gender3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/profile"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/up"
+          android:layout_width="121dp"
+          android:layout_height="match_parent"
+          android:layout_marginHorizontal="20dp"
+          android:background="@drawable/profile2"
+          android:textColor="@color/white"
+          android:text="Update" />
+
+      <Button
+          android:id="@+id/delete"
+          android:layout_width="108dp"
+          android:layout_height="match_parent"
+          android:layout_marginHorizontal="30dp"
+          android:background="@drawable/profile2"
+          android:textColor="@color/white"
+          android:text="Delete" />
+    </LinearLayout>
+
+
+  </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

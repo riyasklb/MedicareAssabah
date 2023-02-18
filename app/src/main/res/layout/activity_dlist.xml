@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/bg"
+  tools:context=".DlistActivity">
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#7E000000"/>
+
+  <TextView
+      android:id="@+id/textBookNow"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:fontFamily="serif"
+      android:paddingLeft="10dp"
+      android:text="Book Now"
+      android:textColor="@color/black"
+      android:textSize="30sp" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/textBookNow">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/duser"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:layout_marginTop="30dp"
+          android:paddingHorizontal="15dp"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"/>
+
+      <TextView
+          android:id="@+id/ddpt"
+          android:layout_width="match_parent"
+          android:layout_height="53dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"/>
+
+      <TextView
+          android:id="@+id/dqu"
+          android:layout_width="match_parent"
+          android:layout_height="49dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black" />
+
+      <TextView
+          android:id="@+id/dex"
+          android:layout_width="match_parent"
+          android:layout_height="51dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black" />
+
+      <TextView
+          android:id="@+id/dhos"
+          android:layout_width="match_parent"
+          android:layout_height="53dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black"/>
+
+      <TextView
+          android:id="@+id/dphn"
+          android:layout_width="match_parent"
+          android:layout_height="49dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black" />
+
+      <TextView
+          android:id="@+id/dstime"
+          android:layout_width="match_parent"
+          android:layout_height="52dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black" />
+
+      <TextView
+          android:id="@+id/detime"
+          android:layout_width="match_parent"
+          android:layout_height="52dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black" />
+
+      <TextView
+          android:id="@+id/davd"
+          android:layout_width="match_parent"
+          android:layout_height="51dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black"/>
+
+      <TextView
+          android:id="@+id/paycharge"
+          android:layout_width="match_parent"
+          android:layout_height="51dp"
+          android:layout_marginTop="5dp"
+          android:paddingHorizontal="15dp"
+          android:padding="10dp"
+          android:elevation="6dp"
+          android:textSize="17dp"
+          android:background="#4190CAF9"
+          android:textColor="@color/black"
+          android:textColorHint="@color/black" />
+
+      <EditText
+          android:id="@+id/dedittext"
+          android:layout_width="match_parent"
+          android:layout_height="55dp"
+          android:layout_marginTop="5dp"
+          android:focusable="false"
+          android:background="#4190CAF9"
+          android:hint="Pick date (mentioned above)"
+          android:paddingHorizontal="15dp"
+          android:textColorHint="@color/black" />
+
+
+      <EditText
+          android:id="@+id/tedittext"
+          android:layout_width="match_parent"
+          android:layout_height="52dp"
+          android:layout_marginTop="5dp"
+          android:focusable="false"
+          android:background="#4190CAF9"
+          android:hint="Pick  time(mentioned between hours)"
+          android:paddingHorizontal="15dp"
+          android:textColorHint="@color/black" />
+
+      <Spinner
+          android:id="@+id/modeofpayment"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:layout_marginTop="10dp"
+          android:background="#4190CAF9"
+          />
+
+
+      <Button
+          android:id="@+id/dpay"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp"
+          android:background="@color/main"
+          android:text="Pay Now"
+          android:layout_marginBottom="20dp"
+          android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+  </ScrollView>
+
+</RelativeLayout>
+

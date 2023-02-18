@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#F6D4DB</color>
+    <color name="colorAccent3">#FFFCFC</color>
+    <color name="colorAccent2">#EBACB5</color>
+    <color name="colorBlue">#5ABAE6</color>
+    <color name="colorPeach">#F68797</color>
+    <color name="colorGreen">#E8B7D4</color>
+    <color name="colorCream">#FBA9A1</color>
+    <color name="colorAsh">#818080</color>
+    <color name="colorLight">#ffffff</color>
+    <color name="colorWhite">#ffff</color>
+    <color name="colorsoft">#ECE6F8</color>
+    <color name="colorBlack">#111111</color>
+    <color name="colorPurple">#291850</color>
+    <color name="colorLightPurple">#9474CD</color>
+    <color name="colorLightPurple2">#CBB6F1</color>
+    <color name="tr">#37CBB6F1</color>
+    <color name="colorSkin">#FBC294</color>
+    <color name="colorDarkgreen">#FFFF</color>
+    <color name="colorDarklightgreen">#FFFF</color>
+    <color name="colorlightgreen">#FFF</color>
+    <color name="Darkblue">#ffff</color>
+    <color name="Red">#B30F02</color>
+    <color name="lightRed">#E16E66</color>
+    <color name="lightpeach">#64F3B9</color>
+    <color name="yellow">#FFC107</color>
+    <color name="lightyellow">#FAC21C</color>
+    <color name="violet">#CE07D5</color>
+    <color name="blue">#5004D8</color>
+    <color name="pink">#F80CBD</color>
+    <color name="violet2">#4B086D</color>
+    <color name="lightviolet">#ACC0FE</color>
+    <color name="pp">#F3EDFD</color>
+    <color name="pp1">#AF6480</color>
+    <color name="pp2">#C3CEE5</color>
+    <color name="ppp">#EFE7FF</color>
+    <color name="pur1">#E6B5CC</color>
+    <color name="pur2">#6D678E</color>
+    <color name="bluee">#0C426B</color>
+    <color name="pink2">#D9AAC7</color>
+    <color name="pink1">#450A3B</color>
+    <color name="vio1">#E21C34</color>
+    <color name="vio2">#500B28</color>
+    <color name="rose1">#447A7A</color>
+    <color name="rose2">#93FD70</color>
+    <color name="red">#FDE1DF</color>
+    <color name="red1">#A53028</color>
+    <color name="red2">#88C2F1</color>
+    <color name="red3">#69AAAA</color>
+
+    <color name="red4">#F0F8F8</color>
+    <color name="red5">#FDC0BB</color>
+    <color name="red7">#FDEFEE</color>
+
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blacktransparent">#9E000000</color>
+    <color name="blacktransparent2">#C9000000</color>
+    <color name="whitetransaprent">#C9FFFFFF</color>
+    <!--    <color name="whitetransaprent">#C900AEFF</color>-->
+    <!-- My Common Colors -->
+
+    <color name="red9">#ff0000</color>
+    <color name="green">#00ab03</color>
+    <color name="gray">#c7c7c7</color>
+    <color name="dark_gray">#9b9a9a</color>
+    <color name="blue_link">#257df1</color>
+
+
+    <!-- Slider Screens background -->
+    <color name="bg_screen1">#ffffff</color>
+    <color name="bg_screen2">#ffffff</color>
+    <color name="bg_screen3">#ffffff</color>
+
+    <!-- Slider Screens dots active colors -->
+    <color name="dot_active">#000000</color>
+    <!-- Slider Screens dots in-active colors -->
+    <color name="dot_inactive">#aaa</color>
+    <color name="bluegrey">#4985B3</color>
+    <color name="main">#63A0FA</color>
+<!--health-->
+
+    <color name="colorPink">#d11d53</color>
+    <color name="colorIndigo">#4B0082</color>
+    <color name="colorRoyalblue">#483D8B</color>
+    <color name="colorskyblue">#8ABBE7</color>
+    <color name="skyblue">#FF8ABBE7</color>
+    <color name="newsky">#987BDB</color>
+    <color name="lightvilot">#FF9C27B0</color>
+    <color name="lightpink">#FFCF2961</color>
+    <color name="lightwhite">#F6F6F6</color>
+    <color name="lightwhite1">#FAFAFA</color>
+    <color name="lightgray">#a9a9a9</color>
+
+
+    //
+
+</resources>

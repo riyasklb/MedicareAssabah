@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".CreateKeyActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="351dp"
+        android:layout_height="535dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Please create key to start and share chat "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/EdtcodeBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/stroke"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Secret Code"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/EdtcodeTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/stroke"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint=" Choose Time"
+                android:padding="10dp"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/Edtcodedate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/stroke"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Choose Date"
+                android:padding="10dp"
+                android:textColorHint="@color/bluee" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/nextBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:backgroundTint="@color/bluee"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Send"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:autoLink="web|email"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:id="@+id/click"
+        android:text="You have already share code please click here"
+        android:textColor="@color/black" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".ModuleActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/aswelcome"
+        android:layout_marginTop="50dp"
+        tools:ignore="ContentDescription" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/main"
+        android:layout_marginTop="150dp"
+        android:id="@+id/patient"
+        android:text="Patient"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/main"
+        android:layout_marginTop="10dp"
+        android:id="@+id/doctor"
+        android:text="Doctor"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".diet.DietDetails">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/eatsmart" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories needed: "
+            android:textSize="22sp"
+            android:textColor="@color/colorBlue"/>
+
+        <TextView
+            android:id="@+id/tvCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="@color/violet"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:inputType="number"
+                android:fontFamily="serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Weight in kg"
+                android:inputType="number"
+                android:fontFamily="serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/etHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Height in cm"
+                android:inputType="number"
+                android:fontFamily="serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="17sp"
+                android:fontFamily="serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_gravity="center_vertical"/>
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"/>
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:layout_marginStart="20dp"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+<!--
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/dietem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textStyle="italic"
+                android:fontFamily="serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/loginbttn"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="serif"
+                android:text="Save"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="3dp"/>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/loginbttn"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="serif"
+                android:text="Clear"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="serif"
+            android:text="Continue"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

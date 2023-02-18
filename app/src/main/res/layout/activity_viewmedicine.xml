@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".Pill.Viewmedicine">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="154dp"
+                android:scaleType="fitXY" />
+
+
+            <TextView
+                android:id="@+id/mname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/dosage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Dosage"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/adddate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="Added date"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/pdays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="Prescribed Days"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/spin"/>
+            <DatePicker
+                android:id="@+id/sdate"
+                android:layout_width="match_parent"
+                android:layout_height="394dp"
+                android:layout_marginTop="15dp" />
+
+            <TimePicker
+                android:id="@+id/stime"
+                android:layout_width="346dp"
+                android:layout_height="342dp"
+                android:layout_marginTop="15dp" />
+
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main"
+                android:text="Set Remainder"
+                android:id="@+id/setrem"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

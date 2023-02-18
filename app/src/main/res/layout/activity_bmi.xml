@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".bmi.BmiActivity">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:background="@drawable/bmicornershp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/body"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:paddingLeft="35dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linear"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/colorBlue"/>
+
+        <TextView
+            android:id="@+id/tvLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPink"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <!--<EditText
+                android:id="@+id/bmiage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>-->
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Height (cm)"
+                android:inputType="number"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Weight (kg)"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="serif"/>
+
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:id="@+id/bmiradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Male"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:fontFamily="serif"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Female"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:fontFamily="serif"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+-->
+
+            <Button
+                android:id="@+id/calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main"
+                android:text="Calculate"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="16dp"
+                android:layout_below="@id/layout"
+                android:layout_marginTop="30dp" />
+
+        </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/graphss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/graph" />
+
+</RelativeLayout>

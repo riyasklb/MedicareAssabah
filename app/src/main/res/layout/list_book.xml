@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/reg"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/pusern"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textColor="@color/bluee"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/pphone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="32dp"-->
+<!--                android:ems="10"-->
+<!--                android:textColor="@color/colorBlack" />-->
+
+            <TextView
+                android:id="@+id/bookingd"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:textColor="@color/bluee" />
+
+            <TextView
+                android:id="@+id/bookingt"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ems="10"
+                android:textColor="@color/bluee" />
+
+            <Button
+                android:id="@+id/btnDcancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:background="@color/main"
+                android:text="Reject booking"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

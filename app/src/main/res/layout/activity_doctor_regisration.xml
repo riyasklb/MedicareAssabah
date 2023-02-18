@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:background="@color/white"
+    tools:context=".DoctorRegisration">
+
+    <TextView
+        android:id="@+id/textTExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/blacktransparent"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:id="@id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textTExt"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/ic_baseline_person_pin_24"
+                android:hint="User Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/etMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:hint="E-Mail Id"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9sp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/phone"
+                android:hint="Phone No"
+                android:inputType="phone"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <RadioGroup
+                android:id="@+id/radioGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9sp"
+                    android:text="Gender"
+                    android:textColor="@color/bluee"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:text="Male"
+                    android:textColor="@color/bluee"
+                    android:textColorHint="@color/bluee" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="@color/bluee"
+                    android:textColorHint="@color/bluee" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    android:textColor="@color/bluee"
+                    android:textColorHint="@color/bluee" />
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="9sp"
+                android:backgroundTint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/etQuali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/ic_baseline_check_circle_24"
+                android:hint="Qualification"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/etExp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/ic_baseline_control_point_24"
+                android:hint="Experience"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/etHospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/ic_home_black_24dp"
+                android:hint="Hospital Name"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/starttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:hint="Start time"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <EditText
+                android:id="@+id/endtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:hint="End time"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+            <!--            <EditText-->
+            <!--                android:id="@+id/timed"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="9dp"-->
+            <!--                android:hint=" time"-->
+            <!--                android:textColor="@color/bluee"-->
+            <!--                android:textColorHint="@color/bluee" />-->
+
+            <EditText
+                android:id="@+id/WorkigDay"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="9dp"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:hint="Working Day (eg:mon,tue,wed)"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/mon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/stroke"
+                    android:text="mon"
+                    android:textAllCaps="false"
+                    />
+
+                <Button
+                    android:id="@+id/tue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/stroke"
+                    android:text="tue"
+                    android:textAllCaps="false"
+                    />
+
+                <Button
+                    android:id="@+id/wed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/stroke"
+                    android:text="wed"
+                    android:textAllCaps="false"
+                    />
+
+                <Button
+                    android:id="@+id/thu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/stroke"
+                    android:text="thu"
+                    android:textAllCaps="false"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+
+                <Button
+                    android:id="@+id/fri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/stroke"
+                    android:text="fri"
+                    android:textAllCaps="false"
+                    />
+
+                <Button
+                    android:id="@+id/sat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/stroke"
+                    android:text="sat"
+                    android:textAllCaps="false"
+                    />
+
+                <Button
+                    android:id="@+id/sun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/stroke"
+                    android:text="sun"
+                    android:textAllCaps="false"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/charge"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="9dp"
+                android:hint="Fee"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee" />
+
+            <Spinner
+                android:id="@+id/availableDays"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="9dp"
+                android:hint="Available Days"
+                android:textColor="@color/bluee"
+                android:textColorHint="@color/bluee"
+                android:visibility="gone" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gii"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ggg" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/main"
+        android:text="Register"
+        android:textColor="@color/colorWhite" />
+
+
+
+</RelativeLayout>

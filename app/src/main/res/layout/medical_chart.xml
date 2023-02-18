@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red7"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp"
+        android:id="@+id/dcardview"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/files"
+                android:layout_width="match_parent"
+                android:src="@drawable/imnot"
+                android:layout_height="177dp" />
+
+            <TextView
+                android:id="@+id/bookdate"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:paddingHorizontal="15dp"
+                android:layout_height="62dp" />
+
+            <TextView
+                android:id="@+id/dname"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:textColor="@color/colorBlack"
+                android:paddingHorizontal="15dp"/>
+
+            <TextView
+                android:id="@+id/dphoneno"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:paddingHorizontal="15dp"
+                android:layout_height="69dp" />
+
+            <TextView
+                android:id="@+id/ddept"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:paddingHorizontal="15dp"
+                android:layout_height="69dp" />
+
+            <TextView
+                android:id="@+id/dhospital"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:paddingHorizontal="15dp"
+                android:layout_height="62dp" />
+
+            <TextView
+                android:id="@+id/diseaseInfo"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:paddingHorizontal="15dp"
+                android:layout_height="59dp" />
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="16sp"-->
+<!--                android:text="Select pharmacy"-->
+<!--                android:background="@color/colorPurple"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:id="@+id/btnPharmacy"/>-->
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

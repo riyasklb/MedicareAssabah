@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "251671476965",
+    "project_id": "nss-dhamaka",
+    "storage_bucket": "nss-dhamaka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251671476965:android:8075edec19d108d568320c",
+        "android_client_info": {
+          "package_name": "com.example.medicareassabah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251671476965-7als7smr4jeknu8gbnqvfs7dq1t2rete.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicareassabah",
+            "certificate_hash": "fcfe0692477882f70088f091161f7c00c828ec7e"
+          }
+        },
+        {
+          "client_id": "251671476965-894logfi1klfg9letlld87ha2dj7mppf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl1RDfubC0-vv6bk15GCKwEdZxxHTLMH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251671476965-894logfi1klfg9letlld87ha2dj7mppf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/precaution"
+    tools:context=".Pill.Addremainder">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Medicines"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/profile"
+        >
+
+        <EditText
+            android:id="@+id/namemed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Name of medicine"
+            android:textColorHint="@color/blacktransparent" />
+
+        <EditText
+            android:id="@+id/dose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namemed"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Dosage"
+            android:textColorHint="@color/blacktransparent" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dose"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Date"
+            android:textColorHint="@color/blacktransparent" />
+
+        <EditText
+            android:id="@+id/days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Prescribed days"
+            android:textColorHint="@color/blacktransparent" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/days"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/main"
+            android:text="Upload with image"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

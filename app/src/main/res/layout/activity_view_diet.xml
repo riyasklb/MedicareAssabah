@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet.ViewDietActivity">
+
+    <TextView
+        android:id="@+id/tvCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="0.0 KCal"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <!--Breakfast-->
+        <TextView
+            android:id="@+id/tvHeadBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Breakfast"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_add_white_24dp"/>
+
+        <TextView
+            android:id="@+id/tvBreakfast1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Breakfast1"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvBreakfast2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Breakfast2"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+
+        <!--Lunch-->
+        <TextView
+            android:id="@+id/tvHeadLunch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Lunch"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="6dp"
+            android:drawableEnd="@drawable/ic_add_white_24dp"/>
+
+        <TextView
+            android:id="@+id/tvLunch1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Lunch1"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvLunch2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Lunch2"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+
+        <!--Snacks-->
+        <TextView
+            android:id="@+id/tvHeadSnacks"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Snacks"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="6dp"
+            android:drawableEnd="@drawable/ic_add_white_24dp"/>
+
+        <TextView
+            android:id="@+id/tvSnacks1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Snacks1"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvSnacks2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Snacks2"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+
+        <!--Dinner-->
+        <TextView
+            android:id="@+id/tvHeadDinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Dinner"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="6dp"
+            android:drawableEnd="@drawable/ic_add_white_24dp"/>
+
+        <TextView
+            android:id="@+id/tvDinner1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Dinner1"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvDinner2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Dinner2"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/colorWhite"
+            android:drawableEnd="@drawable/ic_remove_white_24dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_horizontal"
+        android:layout_above="@id/tvClear"
+        android:layout_marginBottom="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Calories: "
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvCalTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0 KCal"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+<!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remaining Calories: "
+                android:textSize="20sp"
+                android:textColor="@color/colorBlue"/>
+
+            <TextView
+                android:id="@+id/tvCalRemaining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0 KCal"
+                android:textSize="20sp"
+                android:textColor="@color/violet"/>
+
+        </LinearLayout>
+-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:text="Clear Data"
+        android:textColor="#D50000"
+        android:textSize="15sp" />
+
+</RelativeLayout>

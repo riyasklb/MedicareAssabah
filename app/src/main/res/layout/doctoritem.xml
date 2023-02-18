@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp"
+        android:id="@+id/dcardview"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:drawableStart="@drawable/ic_baseline_medical_services_24"
+            android:textColor="@color/bluee"/>
+
+        <TextView
+            android:id="@+id/dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/bluee"/>
+
+        <TextView
+            android:id="@+id/quali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/bluee" />
+        <TextView
+            android:id="@+id/exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/bluee"/>
+        <TextView
+            android:id="@+id/hos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/bluee" />
+
+        <TextView
+            android:id="@+id/da"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/bluee"/>
+        <TextView
+            android:id="@+id/ti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/bluee"/>
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
